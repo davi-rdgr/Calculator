@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 class="h1-calculadora">Calculadora</h1>
+        <div class="calc-content">
+            <div id class="show-result"></div>
+
+            <button class="n1" onclick="insert(1)">1</button>
+            <button class="n2" onclick="insert(2)">2</button>
+            <button class="n3" onclick="insert(3)">3</button>
+            <button class="n4" onclick="insert(4)">4</button>
+            <button class="n5" onclick="insert(5)">5</button>
+            <button class="n6" onclick="insert(6)">6</button>
+            <button class="n7" onclick="insert(7)">7</button>
+            <button class="n8" onclick="insert(8)">8</button>
+            <button class="n9" onclick="insert(9)">9</button>
+            <button class="n0" onclick="insert(0)">0</button>
+            <button class="dot" onclick="insert('.')">.</button>
+
+            <button class="erase" onclick="erase()">CE</button>
+            <button class="reset" onclick="clean()">C</button>
+
+            <button class="addition" onclick="insert('+')">+</button>
+            <button class="subtraction" onclick="insert('-')">-</button>
+            <button class="buttonision" onclick="insert('/')">/</button>
+            <button class="multiplication" onclick="insert('*')">*</button>
+            <button class="result" onclick="calculate()">=</button>
+        </div>
+    </section>
+</body>
+<script src="/script.js"></script>
+
+</html>
